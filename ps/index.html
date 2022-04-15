@@ -15,6 +15,7 @@
     }
 
     .faixa p {
+        height: 40px;
         margin-top: 0px;
         margin-bottom: 0px;
         padding: 6px;
@@ -61,7 +62,7 @@
           <p>Clique no botão abaixo para continuar</p>
         </div>
         <div class="answer">
-          <a class="btn" href="../index.html">CONTINUAR</a>
+          <a class="btn" href="../PV/index.html">CONTINUAR</a>
         </div>
       </div>    
     </div>
@@ -69,22 +70,20 @@
     <div class="text-white mt-4"><a href="termos.html" class="text-white">Termos de Uso</a> | <a href="privacidade.html" class="text-white">Política de Privacidade</a> | <a href="mailto:contatopzb@gmail.com?subject=Olá%20again" class="text-white">Contato</a></div>
     </div>
     <div class="footer">
-        <p>Este site não é afiliado ao Facebook ou a qualquer entidade do Facebook.  Depois que você sair do Facebook, a responsabilidade não é deles e sim do nosso site. Fazemos todos os esforços para indicar claramente e mostrar todas as provas e resultados reais. Nós não vendemos o seu e-mail ou qualquer informação para terceiros. Jamais fazemos nenhum tipo de spam. Se você tiver alguma dúvida, sinta-se à vontade para usar o link de contato e falar conosco em horário comercial de Segunda a Sextas das 09h00 às 18h00. Lemos e respondemos todas as mensagens por ordem de chegada.</p>
+        <p>Este site não é afiliado ao Facebook ou a qualquer entidade do Facebook.  Depois que você sair do Facebook, a responsabilidade não é deles e sim do nosso site. Fazemos todos os esforços para indicar claramente e mostrar todas as provas e resultados reais. Nós não vendemos o seu e-mail ou qualquer informação para terceiros. Jamais fazemos nenhum tipo de spam. Sinta-se à vontade para falar conosco em horário comercial de Segunda a Sextas das 09h00 às 18h00. Lemos e respondemos todas as mensagens por ordem de chegada.</p>
     </div>
     <p style="text-align: center; color: #B6B6B6; font-weight: bold; font-size: 16px;">© 2022 – Todos os direitos reservados.</p>
 
   </div>
   <script type="text/javascript" src="script.js"></script>
   <script type="text/javascript">
-      var min;
-      var max;
-      function getRandomInt(min, max) {
+    function getRandomInt(min, max) {
       return Math.floor(Math.random() * (max - min + 1)) + min;
     }
     function MudarPessoas(){
       const result = getRandomInt(98, 105);
       //console.log(result); 
-        const Element = document.getElementById("iD1").innerHTML = result;
+      const Element = document.getElementById("iD1").innerHTML = result;
     };
     setInterval(MudarPessoas, 5000);
     </script>
